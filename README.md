@@ -15,7 +15,7 @@ First, you must download the fully original RGBD data from [OCID](https://www.ac
 The cleaned annotations and referring expressions could download from [GDRIVE](#). (This download link will be available soon!)
 
 ## Citation
-'''
+```
 @misc{wang2021ocidref,
       title={OCID-Ref: A 3D Robotic Dataset with Embodied Language for Clutter Scene Grounding}, 
       author={Ke-Jyun Wang and Yun-Hsuan Liu and Hung-Ting Su and Jen-Wei Wang and Yu-Siang Wang and Winston H. Hsu and Wen-Chin Chen},
@@ -24,7 +24,7 @@ The cleaned annotations and referring expressions could download from [GDRIVE](#
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-'''
+```
 
 ## Acknowledgement
 This work was supported in part by the Ministry of Science and Technology, Taiwan, under Grant MOST 110-2634-F-002-026 and Qualcomm Technologies, Inc. We benefit from NVIDIA DGX-1 AI Supercomputer and are grateful to the National Center for High-performance Computing. We also thank Yu-Kai Huang for his insightful suggestion on the figures.
