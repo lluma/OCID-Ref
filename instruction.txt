@@ -1,0 +1,37 @@
+This file is an instruction of OCID-Ref annotations. Following the pre-defined structure, 
+you can simply map the labeled samples to the corresponding images in original OCID dataset.
+
+Note: If you used our OCID-Ref dataset in your research, please consider cite our paper. 
+
+===== Structure of Dataset =====
+We split OCID-Ref into three data splits with JSON format:
+
+1. train_expressions.json
+2. val_expressions.json
+3. test_expressions.json
+
+===== Structure of Annotation =====
+In each file, we define a simple data structure to storing our labeled data. 
+{
+  "[sentence_id]": {
+    "seq_id": A sequence ID that the current scene(image) belongs to in our pre-defined seq_list.txt. ,
+    "scene_id": A scene ID representing an image in our pre-defined scene_list.txt. ,
+    "take_id": A take ID representing the order of the image being taken in the sequence. ,
+    "scene_path": A relative image path (usage: ~/OCID-Dataset/[scene_path]). ,
+    "sequence_path": A relative sequence path rooted from the (usage: ~/OCID-Dataset/[sequence_path]). ,
+    "sub_dataset": A metadata marked for the image split from the original OCID dataset. ([ARID10/ARID20/YCB10]) ,
+    "instance_id": An instance ID representing an object instance over the whole dataset. ,
+    "scene_instance": An instance ID representing an object instance over current scene(image). ,
+    "class": A class name for the object. ,
+    "class_instance": An instance name related to class of the object in current scene. ,
+    "new_class": A class name for the object. ,
+    "sentence": A referring expression corresponded to the object. ,
+    "tokens": An array of tokens split from sentence. ,
+    "bbox": A bounding box for the object in format of (x, y, w, h). ,
+    "sentence_type": The type of sentence generation method used.
+  },
+  ...
+}
+
+Author: Ke-Jyun Wang
+Writen Date: 2021/1/11
