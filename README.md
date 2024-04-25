@@ -9,7 +9,7 @@ If your have interest in our work, please see our OCID-Ref paper for further det
 
 ## Dataset
 #### OCID
-First, you must download the fully original RGBD data from [OCID](https://www.acin.tuwien.ac.at/vision-for-robotics/software-tools/object-clutter-indoor-dataset/) to your local.
+First, you must download the fully original RGBD data from [OCID](https://www.acin.tuwien.ac.at/vision-for-robotics/software-tools/object-clutter-indoor-dataset/) to your local. (If the official link is unavailable, please use our backup [link](https://drive.google.com/drive/folders/1mR_YcmfKqV4R_E6xMt8-yDjLk10w2-fo?usp=sharing))
 
 #### OCID-Ref
 The cleaned annotations and referring expressions could download from [GDRIVE](https://drive.google.com/drive/folders/1dUKpfRiSQD7bWXtpbd9aVzgquYHtWfZv?usp=sharing).
@@ -37,7 +37,16 @@ The details of the usage of the annotations. Please follow up the instructions i
     pages = "5333--5338"
 }
 ```
-
+```
+@inproceedings{suchi2019easylabel,
+  title={EasyLabel: a semi-automatic pixel-wise object annotation tool for creating robotic RGB-D datasets},
+  author={Suchi, Markus and Patten, Timothy and Fischinger, David and Vincze, Markus},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={6678--6684},
+  year={2019},
+  organization={IEEE}
+}
+```
 ## Acknowledgement
 This work was supported in part by the Ministry of Science and Technology, Taiwan, under Grant MOST 110-2634-F-002-026 and Qualcomm Technologies, Inc. We benefit from NVIDIA DGX-1 AI Supercomputer and are grateful to the National Center for High-performance Computing. We also thank Yu-Kai Huang for his insightful suggestion on the figures.
 
